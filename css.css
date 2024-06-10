@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    transform: translateY(50%);
+    transition: 0.6s ease-out;
+}
+
+#square {
+    border: solid black 3px;
+    background-color: white;
+    width: 250;
+    height: 250;
+    margin: auto;
+    box-shadow: 5px 5px 25px gray;
+    transition: 0.6s ease-out;
+}
+
+input {
+    background-color: white;
+    border: solid black 3px;
+    margin: 100px 0;
+    padding: 10px;
+    font-family: "open sans";
+    font-weight: 400;
+}
